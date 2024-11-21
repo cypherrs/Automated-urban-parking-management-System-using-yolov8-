@@ -17,7 +17,7 @@ Visualization: Matplotlib, OpenCV
 System Deployment: Scalable cloud-based storage (optional).
 Feel free to use or adapt this project as a foundation for improving parking systems in urban environments.
 
-##1. Data Preparation using Roboflow
+## 1. Data Preparation using Roboflow
 The first part of the project focuses on preparing the data for training the YOLOv8 model. This involves the following steps:
 
 ->Collecting images of parking lots that capture various parking scenarios.
@@ -30,7 +30,7 @@ The first part of the project focuses on preparing the data for training the YOL
 
 ->Exporting the prepared dataset in a format compatible with YOLOv8 training, such as YOLO darknet format or COCO format.
 
-##2. YOLOv8 Model Training
+## 2. YOLOv8 Model Training
 The second part of the project focuses on training the YOLOv8 model using the prepared dataset. This part includes the following steps:
 
 ->Setting up the training environment by installing the required dependencies, including Python, PyTorch, and other necessary libraries.
@@ -49,7 +49,7 @@ The second part of the project focuses on training the YOLOv8 model using the pr
 
 ->Saving the trained YOLOv8 model weights for future use during inference.
 
-##3. Inference
+## 3. Inference
 The third part of the project involves using the trained YOLOv8 model to detect car parking slot occupancy in real-time. This part includes the following steps:
 
 ->Capturing the parking area image and saving it to disk using the capture_parking_area.ipynb notebook.
